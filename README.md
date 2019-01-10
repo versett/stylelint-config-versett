@@ -1,2 +1,2 @@
-# stylelint-config-versett
+# stylelint-plugin-versett
 Stylelint project for versett projects
