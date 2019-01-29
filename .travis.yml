@@ -2,16 +2,16 @@ sudo: required
 language: node_js
 node_js:
   - 10.15.0
-before_install: 'echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc && npm i -g yarn@1.13.0 && npm i -g npm@6.5.0'
+before_install: 'echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc && npm i -g npm@6.5.0 && npm i -g yarn@1.13.0'
 install: yarn
 cache: yarn
 script:
-  - "npm test"
   - "yarn test:ci"
 branches:
   only:
     - master
 deploy:
+  skip_cleanup: true
   provider: script
   script: "npm run release"
   on:
