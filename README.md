@@ -1,4 +1,4 @@
-# eslint-plugin-versett
+# stylelint-config-versett
 
 [![Build Status](https://travis-ci.com/versett/stylelint-config-versett.svg?token=V1x7Y8ZXchNswxYZP5ko&branch=master)](https://travis-ci.com/versett/style-lint-versett)
 
