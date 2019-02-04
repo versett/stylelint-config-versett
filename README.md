@@ -65,7 +65,7 @@ please refer to their repos for rules and configurations.
 
 ## Contributing
 
-Please read this [Quipt Documentation](https://versett.quip.com/zyEcAZ0ZosJn/How-to-Contribute-Code) for details on our code of conduct, and the process for submitting pull requests.
+Please read this [Quip Documentation](https://versett.quip.com/zyEcAZ0ZosJn/How-to-Contribute-Code) for details on our code of conduct, and the process for submitting pull requests.
 
 ## Versioning
 
