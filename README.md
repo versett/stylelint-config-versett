@@ -53,7 +53,7 @@ $ yarn link @versett/stylelint-config-versett
 
 After that, a symbolic link is added to `node_modules` of the plugin directory.
 
-### Dependencies
+### References
 
 There are multiple styline plugins we have used which are listed below.
 
