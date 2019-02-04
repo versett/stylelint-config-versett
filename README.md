@@ -7,7 +7,7 @@ Please read the guidlines below for both usage and development.
 You can find more info on eslint [here](https://github.com/stylelint/stylelint).
 
 
-### Installation
+## Installation
 
 For using this configurations you have to add this repository to your `package.json` file which you can do by running the following command:
 ```
@@ -18,7 +18,7 @@ npm install --save-dev @versett/stylelint-config-versett
 In order for this command to work you have to login to Versett organization on npm.
 
 
-### Configuration
+## Configuration
 stylelint works with a config file which you can obtain more info from [here](https://github.com/stylelint/stylelint).
 In order to setup your project you should create a `.stylelint.json` file or any other acceptable config file for stylelint. but here we use the json format. Here is a confing file:
 
@@ -53,7 +53,7 @@ $ yarn link @versett/stylelint-config-versett
 
 After that, a symbolic link is added to `node_modules` of the plugin directory.
 
-### References
+## References
 
 There are multiple styline plugins we have used which are listed below.
 
