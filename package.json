@@ -33,5 +33,7 @@
   "release": {
     "getLastRelease": "last-release-git"
   },
-  "dependencies": {}
+  "peerDependencies": {
+    "stylelint": ">= 9.10.1"
+  }
 }
