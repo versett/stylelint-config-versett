@@ -23,7 +23,7 @@ You must be logged in to you Versett npm account first using `npm login`.
 
 #### Peer Dependencies
 
-You have to install the following peer dependency directly in your project for now by this command:
+You have to install the following peer dependency directly in your project:
 ```
 yarn add --dev stylelint
 ```
@@ -42,11 +42,12 @@ We strongly recommend against overriding the `rules` configured by this package.
 
 ### Running
 
-Add the following script to your package.json and then run it using yarn lint (or npm run lint):
+Add the following script to your package.json and then run it using `yarn lint` (or `npm run lint`):
 
 ```
 "lint" : "stylelint \"src/**/*.css\" \"src/**/*.scss\""
 ```
+(you can change the paths to the paths you use in your project)
 
 ## Development
 
