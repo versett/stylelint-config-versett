@@ -27,7 +27,6 @@ Here is a sample config file (`.stylelintrc.json`)
 ```
 {
   "extends": "@versett/stylelint-config-versett"
-  "rules": {}
 }
 ```
 
