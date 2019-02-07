@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/versett/stylelint-config-versett.svg?token=V1x7Y8ZXchNswxYZP5ko&branch=master)](https://travis-ci.com/versett/stylelint-config-versett)
 
 This config will help us maintain our codestyling code to be cleaner and consistent among different projects.
-Please read the guidlines below for both usage and development.
+Please read the guidelines below for both usage and development.
 You can find more info on stylelint [here](https://github.com/stylelint/stylelint).
 
 
@@ -55,7 +55,7 @@ After that, a symbolic link is added to `node_modules` of the plugin directory.
 
 ### References
 
-There are multiple styline plugins we have used as reference which are listed below.
+There are multiple stylelint plugins we have used as reference which are listed below.
 
 * [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended)
 * [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
