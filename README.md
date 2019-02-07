@@ -21,6 +21,12 @@ npm install --save-dev @versett/stylelint-config-versett
 
 You must be logged in to you Versett npm account first using `npm login`.
 
+#### Peer Dependencies
+
+You have to install the following peer dependency directly in your project for now by this command:
+```
+yarn add --dev stylelint
+```
 
 ### Configuration
 stylelint works with a [config file](https://github.com/stylelint/stylelint).
@@ -33,6 +39,14 @@ Here is a sample config file (`/.stylelintrc.json`)
 ```
 
 We strongly recommend against overriding the `rules` configured by this package. If you believe you have a good reason for overriding a rule, please create an issue on this repository and post it on the #developers channel on Slack. If the team agrees, we will change the rule in the package so all projects can benefit from it.
+
+### Running
+
+Add the following script to your package.json and then run it using yarn lint (or npm run lint):
+
+```
+"lint" : "stylelint \"src/**/*.css\" \"src/**/*.scss\""
+```
 
 ## Development
 
