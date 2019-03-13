@@ -47,5 +47,8 @@
     "npm": ">= 5.6.0",
     "yarn": ">= 1.12.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^5.0.0"
+  }
 }
