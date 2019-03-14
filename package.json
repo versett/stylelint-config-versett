@@ -20,14 +20,13 @@
   "homepage": "https://github.com/versett/stylelint-plugin-versett#readme",
   "devDependencies": {
     "@versett/versett-scripts": "^0.5.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "stylelint": "^9.10.1"
   },
   "release": {
     "getLastRelease": "last-release-git"
   },
-  "peerDependencies": {
-    "stylelint": ">= 9.10.1"
-  },
+  "peerDependencies": {},
   "husky": {
     "hooks": {
       "commit-msg": "versett-scripts commitmsg ${HUSKY_GIT_PARAMS}",
@@ -48,7 +47,6 @@
     "yarn": ">= 1.12.1"
   },
   "dependencies": {
-    "stylelint": "^9.10.1",
     "stylelint-config-prettier": "^5.0.0"
   }
 }
