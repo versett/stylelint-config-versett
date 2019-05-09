@@ -2,9 +2,8 @@
 
 module.exports = {
   extends: [
-    require.resolve("./rules"),
     "stylelint-config-prettier",
-    "stylelint-config-sass-guidelines",
-    require.resolve("./override-rules.js")
+    require.resolve("./rules"),
+    "stylelint-config-sass-guidelines"
   ]
 };

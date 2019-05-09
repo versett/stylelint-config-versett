@@ -383,6 +383,10 @@ module.exports = {
     // Limit the number of adjacent empty lines within value lists (Autofixable)
     "value-list-max-empty-lines": 0,
     // Disallow vendor prefixes for values
-    "value-no-vendor-prefix": true
+    "value-no-vendor-prefix": true,
+
+    //PLUGINS
+    // Properties must be in alphabetical order
+    "order/properties-alphabetical-order": null
   }
 };
