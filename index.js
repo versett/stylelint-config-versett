@@ -2,8 +2,8 @@
 
 module.exports = {
   extends: [
-    "stylelint-config-prettier",
+    "stylelint-config-sass-guidelines",
     require.resolve("./rules"),
-    "stylelint-config-sass-guidelines"
+    "stylelint-config-prettier"
   ]
 };
