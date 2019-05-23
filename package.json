@@ -21,13 +21,13 @@
   "devDependencies": {
     "@versett/versett-scripts": "^0.12.0",
     "jest": "^23.6.0",
-    "stylelint": "^9.10.1"
+    "stylelint": "^10.0.1"
   },
   "release": {
     "getLastRelease": "last-release-git"
   },
   "peerDependencies": {
-    "stylelint": "^9.10.1"
+    "stylelint": "^10.0.1"
   },
   "husky": {
     "hooks": {
