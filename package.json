@@ -3,6 +3,7 @@
   "version": "0.0.0-semantically-released",
   "description": "A plugin helping linitng styles",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "release": "yarn && versett-scripts release --npm-publish",
     "test": "jest",
